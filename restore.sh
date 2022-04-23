@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# python manage.py migrate
+
 echo "==> Removing all data from the database..."
 python manage.py flush --noinput
 
